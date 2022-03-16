@@ -86,4 +86,71 @@ body {
   background-color: black;
   position: fixed;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.left-menu-icon {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* ---------------------------------------------- */
+.container {
+  background-color: #151515;
+  min-height: calc(100vh - 50px);
+  color: white;
+}
+.content-container {
+  margin-left: 50px;
+}
+/* featured */
+.featured-content {
+  height: 50vh;
+  padding: 50px;
+}
+.featured-title {
+  width: 200px;
+}
+.featured-desc {
+  width: 500px;
+  color: lightgray;
+  margin: 30px 0;
+}
+.featured-button {
+  background-color: #4dbf00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+/* movie list */
+.movie-list-container {
+  padding: 20px;
+}
+.movie-list-title {
+}
+.movie-list-wrapper {
+}
+.movie-list {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+.movie-list-item {
+  margin-right: 30px;
+}
+.movie-list-item-image {
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+}
+.movie-list-item-title {
+}
+.movie-list-item-desc {
+}
+.movie-list-item-btn {
 }
